@@ -20,3 +20,6 @@ This folder has the scripts to create the blur datasets. The dataset is based of
     ``train_labels``, ``val_labels``, test_labels`` are the csv file names for each dataset that will be used by the data generator to create the batches with its labeled data.
 
 `Results.py` Will run the results of your trained model, and calculate the $R^2$ score for each blur parameter. May test multiple saved weights at the same time. Need to change ``weights_filenames`` for the weights you enter.
+
+# Deconvolution
+The deconvolution method was implemented from Zoran using this [EPLL code](https://github.com/friedmanroy/torchEPLL)
