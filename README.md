@@ -9,9 +9,9 @@ The `Requirements.txt` file is based off a conda environment. To create a conda 
 ## Dataset
 This folder has the scripts to create the blur datasets. The dataset is based off [COCO 2014](https://cocodataset.org/#download)
 
-`COCO_blur_augmentation_TestVal` and `COCO_blur_augmentation_Train` create the Test/Val and Train datasets to train the model. The code randomises COCO images which means it wont create the exact blurred images we used. The code is parallelized to use multiple cores. The number of images you get in train will depend on the number of cores you use. Each core yields approximately 21K images. The code will also export a csv file with the labeled data for filenames, angle, and length blur parameters. 
+`COCO_blur_augmentation_TestVal` and `COCO_blur_augmentation_Train` create the Test/Val and Train datasets to train the model. The code randomizes COCO images which means it wont create the exact blurred images we used. The code is parallelized to use multiple cores. The number of images you get in train will depend on the number of cores you use. Each core yields approximately 21K images. The code will also export a csv file with the labeled data for filenames, angle, and length blur parameters. 
 
-`COCO_blur_using_csv.py` reads in one of the csv files to create the exact blur images. This is a slower method of creating images which will not be optimal for the training datasets, but can be optimal to test with the subset datasets.
+`COCO_blur_using_csv.py` reads in one of the csv files to create the exact blur images used in the paper available at [https://arxiv.org/abs/2308.01381](https://arxiv.org/abs/2308.01381). This is a slower method of creating images which will not be optimal for generating training datasets, but can be optimal to test with the same subset datasets as the paper available at [https://arxiv.org/abs/2308.01381](https://arxiv.org/abs/2308.01381).
 
 # Regression Blur
 `VGG16_Regressor.py` Trains the regressor model. 
