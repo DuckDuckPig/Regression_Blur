@@ -1,0 +1,40 @@
+﻿# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Regression_Blur
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - given-names: Luis G.
+    family-names: Varela
+    affiliation: New Mexico State University
+  - given-names: Laura E.
+    family-names: Boucheron
+    affiliation: New Mexico State University
+repository-code: 'https://github.com/DuckDuckPig/Regression_Blur'
+preferred-citation:
+  type: article
+  authors:
+  - given-names: Luis G.
+    family-names: Varela
+    email: varelal@nmsu.edu
+    affiliation: New Mexico State University
+  - given-names: Laura E.
+    family-names: Boucheron
+    affiliation: New Mexico State University
+    email: lboucher@nmsu.edu
+    orcid: 'https://orcid.org/0000-0002-8187-1566'
+  - given-names: Steven
+    family-names: Sandoval
+    affiliation: New Mexico State University
+  - given-names: David
+    family-names: Voelz
+    affiliation: New Mexico State University
+  - given-names: Abu Bucker
+    family-names: Siddik
+    affiliation: New Mexico State University
+  doi: "10.1038/s41597-023-02628-8"
+  journal: "arXiv preprint arXiv:2308.01381"
+  title: "Estimation of motion blur kernel parameters using regression convolutional neural networks"
+  year: 2023
