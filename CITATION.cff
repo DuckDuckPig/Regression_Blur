@@ -34,7 +34,6 @@ preferred-citation:
   - given-names: Abu Bucker
     family-names: Siddik
     affiliation: New Mexico State University
-  doi: "10.1038/s41597-023-02628-8"
   journal: "arXiv preprint arXiv:2308.01381"
   title: "Estimation of motion blur kernel parameters using regression convolutional neural networks"
   year: 2023
